@@ -1,0 +1,58 @@
+body {
+    transition: 1ms;
+    background: url(back.jpg) no-repeat;
+    background-size: 100%;
+}
+.container{
+    position: absolute;
+    border-radius: 2%;
+    padding-top: 2%; /* Поля вокруг текста */
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    background: rgb(143, 138, 148, 0.3);
+    top: 15%;
+    left: 36%;
+    color:rgb(255, 255, 255);
+}
+input[type=text], input[type=password], input[type=email]{
+    width: 100%;
+    padding: 4%;
+    margin: 2px 0 15px 0;
+    border: none;
+    font-size: 14pt;
+    background-color: rgb(197, 197, 197);
+
+}
+button{
+    margin: 35px 0 22px 0;
+    background: #adacac;
+    padding: 4%;
+    cursor: pointer;
+    opacity: 0.7;
+    border: none;
+    font-size: 15pt;
+    
+}
+#switchbtn{
+    background: #6b6767;
+    padding: 10px 24px;
+    cursor: pointer;
+    border: none;
+    font-size: 10pt;
+}
+.btn{
+    text-align: center;
+}
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus {
+    background-color: #9e9898;;
+    outline: none;
+    opacity: 0.8;
+  }
+h1{
+    font-size: 35pt;
+    text-align: center;
+}
+label{
+    font-size: 15pt;
+}

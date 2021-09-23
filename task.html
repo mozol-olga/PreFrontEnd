@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="styledark.css" id="theme">
+    <title>Регистрация</title>
+</head>
+<body>
+  <button id="switchbtn">Сменить тему</button>
+    <form>
+        <div class="container">
+          <h1>Регистрация</h1>
+          
+          <b><label>Email:</label></b>
+          <input type="email" placeholder="Введите email" id="input1" name="email" onchange="CheckEmail()"  required>
+          <br>
+          <b><label>Имя:</label></b>
+          <input type="text" placeholder="Введите имя" id="input2" minlength="2" onchange="CheckName()" required>
+          <br>
+          <b><label>Пароль:</label></b>
+          <input type="password" placeholder="Введите пароль" id="input3" minlength="6" onchange="CheckPassword()" required>
+          <br>
+          <div class="btn"><button type="submit" onclick="json()" class="registerbutton">Зарегистрироваться</button></div>
+        </div>
+      </form>
+    <script src="script.js"></script>
+</body>
